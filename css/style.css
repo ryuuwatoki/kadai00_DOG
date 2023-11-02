@@ -1,0 +1,387 @@
+
+/* 重設語法 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+/* 先將框框塗色 */
+header, h2,section, footer, div, img {
+    background-color: rgb(42, 15, 54);
+    color: white;
+}
+
+/* 標題上色 */
+h2 {
+    color: rgb(125, 48, 48);
+    left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 40px;
+
+}
+
+p {
+    color: white;
+}
+
+
+/* 頁首區塊 */
+
+header {
+    background-color: black;
+    height: 121px;
+    width: 100%;
+}
+
+
+/* 頁尾 */
+
+footer {
+    background-color: black;
+    height: 121px;
+    width: 100%;
+}
+
+
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 0px;
+    line-height: 121px;
+    text-indent: -9999px;
+}
+
+.logo_jpg {
+    background-color: black;
+    position: absolute;
+    left: 70px;
+    height: 120px;
+    width: auto;
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0px;
+    line-height: 121px;
+}
+
+header li {
+    display: inline;
+    margin: 1vw;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+/* 主圖層 */
+
+.mainImg {
+    height: 550px;
+}
+
+.main_img {
+    height: 500px;
+    position: absolute; /* 设置绝对定位 */
+    left: 450px;
+    top: 160px;
+
+}
+
+.main_text01, .main_text02 {
+    color: white;
+}
+
+.main_text01 {
+    font-size: 35px;
+    position: absolute; /* 设置绝对定位 */
+    left: 750px;
+    top: 300px;
+    text-align: center; /* 水平文本居中 */
+}
+
+.main_text02 {
+    font-size: 28px;
+    position: absolute; /* 设置绝对定位 */
+    left: 790px;
+    top: 430px;
+    text-align: center; /* 水平文本居中 */
+}
+
+
+/* 關於的區塊 */
+
+.about_p {
+    color: white;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+
+.about_p table {
+    border-collapse: collapse; /* 合并表格边框 */
+}
+
+.about_p td:first-child {
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 樂團照片的區塊 */
+
+.member_jpg {
+    display: flex;
+    justify-content: center;
+
+}
+
+.member_jpg div {
+    height: 200px;
+}
+
+.member_jpg img {
+    height: 100%;
+}
+
+
+/* 歷史1 */
+
+.zan_img , .saku_img {
+    height: 300px;
+}
+
+.history1 , .history2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.history1 div {
+    width: 400px;
+    height: 400px;
+}
+.history2 div {
+    width: 400px;
+    height: 400px;
+}
+
+
+/* 新聞區塊 */
+
+.news img {
+    width: 300px;
+    height: auto;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 30px 30px;
+
+}
+
+.news div {
+    width: 300px;
+    text-align: center;
+    margin: 0 20px;
+
+}
+
+.news h4 {
+    color: white;
+    font-size: 20px;
+}
+
+.news h5 {
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+.map01 {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+
+
+
+
+
+.com_inf, .send_mail, .more {
+    color: white;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+
+}
+
+.send_mail_button , .more_button{
+    background-color: rgb(189, 135, 7);
+    padding: 20px 100px;
+
+}
+
+
+
+
+
+.com_table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+.com_table table {
+    border-collapse: collapse; /* 合并表格边框 */
+  }
+  
+.com_table td:first-child {
+    width:230px;
+  }
+
+.com_table td:nth-child(2) {
+    width: 730px;
+}
+
+
+.contact {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+
+
+.user_inf , .user_inf2 ,.user_inf3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+
+}
+.user_inf table {
+    border-collapse: collapse; /* 合并表格边框 */
+}
+
+.user_inf2 table {
+    border-collapse: collapse; /* 合并表格边框 */
+}
+
+.user_inf3 table {
+    border-collapse: collapse; /* 合并表格边框 */
+}
+
+  
+.user_inf td:first-child {
+    width:200px;
+}
+
+.user_inf2 td:first-child {
+    width:200px;
+}
+
+.user_inf3 td:first-child {
+    width:200px;
+}
+
+.user_inf2 td:nth-child(2) {
+    width: 400px;
+  }
+
+.user_inf input {
+    width: 400px;
+}
+
+
+.user_inf3 input {
+    width: 400px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h30px {
+    border: 15px solid transparent;
+}
+
+.h60px {
+    border: 30px solid transparent;
+}
+.h70px {
+    border: 35px solid transparent;
+}
+.h140px {
+    border: 70px solid transparent;
+}
+
+
+
+footer {
+    color: white;
+    padding: 15px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+
+}
