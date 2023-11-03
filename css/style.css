@@ -97,11 +97,8 @@ header a:hover {
 }
 
 .main_img {
-    height: 500px;
-    position: absolute; /* 设置绝对定位 */
-    left: 450px;
-    top: 160px;
-
+    width: 100%;
+    height: 550px;
 }
 
 .main_text01, .main_text02 {
@@ -111,18 +108,22 @@ header a:hover {
 .main_text01 {
     font-size: 35px;
     position: absolute; /* 设置绝对定位 */
-    left: 750px;
-    top: 300px;
     text-align: center; /* 水平文本居中 */
+    left: 50%;
+    transform: translateX(-50%);
+    top: 300px;
 }
 
+
 .main_text02 {
-    font-size: 28px;
+    font-size: 27px;
     position: absolute; /* 设置绝对定位 */
-    left: 790px;
-    top: 430px;
     text-align: center; /* 水平文本居中 */
+    left: 50%;
+    transform: translateX(-50%);
+    top: 600px;
 }
+
 
 
 /* 關於的區塊 */
